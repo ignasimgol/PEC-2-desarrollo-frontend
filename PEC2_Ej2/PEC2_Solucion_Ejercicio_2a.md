@@ -1,0 +1,1 @@
+El valor de this es undefined porque al pasar this.service.addTodo sin un bind, el contexto de la función no se preserva, por lo que se pierde la referencia al objeto service. Cuando intentas pasar this.service.addTodo, el contexto se pierde porque estás pasando directamente una función que pertenece al objeto service.
