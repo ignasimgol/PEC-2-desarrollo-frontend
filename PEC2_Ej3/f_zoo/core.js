@@ -123,9 +123,20 @@ function animalByName(animalName) {
   return {};
 }
 
+const { employees } = require('./data');
+
+// Definir la función employeesByIds
 function employeesByIds(...ids) {
-  if (ids.length === 0) return [];
-  return this.employees.filter(employee => ids.includes(employee.id));
+  // Si no se pasa ningún id, devuelve un array vacío
+  if (ids.length === 0) {
+    return [];
+  }
+
+  // Aplanar los ids en caso de que se pasen arrays anidados
+  const flattenedIds = ids.flat();
+
+  // Filtrar los empleados que coincidan con los ids proporcionados
+  return employees.filter(employee => flattenedIds.includes(employee.id));
 }
 
 function animalsByIds(...ids) {
