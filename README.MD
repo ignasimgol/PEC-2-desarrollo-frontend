@@ -2,6 +2,4 @@ ignasimgol
 
 Ignasi Muñoz Gol
 
-Breve descripción de lo realizado en esta PEC, dificultades, mejoras realizadas, si
-hay que tener algo en cuenta a la hora de corregir/ejecutar la practica o cualquier
-aspecto que queráis destacar
+Para esta segunda PEC he podido resolver las questiones sin problema gracias a la documentación que encontré en el aula virtual. Lo mas tedioso a sido resolver la parte de los tests, y espero que los resultados sean los esperados.
